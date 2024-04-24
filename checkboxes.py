@@ -33,13 +33,18 @@ my_check2.pack(pady=10)
 
 # Outline ToolButton
 var3 = IntVar()
-my_check3 = tb.Checkbutton(bootstyle="danger, toolbutton, outline", text="Outline ToolButton", variable = var2, onvalue= 1, offvalue= 0, command=checker)
+my_check3 = tb.Checkbutton(bootstyle="danger, toolbutton, outline", text="Outline ToolButton", variable = var3, onvalue= 1, offvalue= 0, command=checker)
 my_check3.pack(pady=10)
 
 #round toggle button
 var4 = IntVar()
-my_check4 = tb.Checkbutton(bootstyle="danger, toolbutton, outline", text="Outline ToolButton", variable = var2, onvalue= 1, offvalue= 0, command=checker)
+my_check4 = tb.Checkbutton(bootstyle="danger, round-toggle", text="Round Toggle", variable = var4, onvalue= 1, offvalue= 0, command=checker)
 my_check4.pack(pady=10)
+
+#square toggle button
+var5 = IntVar()
+my_check5 = tb.Checkbutton(bootstyle="warning, square-toggle", text="Square Toggle", variable = var5, onvalue= 1, offvalue= 0, command=checker)
+my_check5.pack(pady=10)
 
 # Outlines Toolbutton
 # In Love With Web Dev

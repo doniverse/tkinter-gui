@@ -18,14 +18,15 @@ def changer():
     else:
         my_label.config(text="Goodbye Milko!")
 
-# Colors: 
+
+
 
 # Create a Label
 my_label = tb.Label(text="Hello, World!", font=("Helvatica", 28), bootstyle="default, inverse")
-my_label.pack(pady=50)
+my_label.pack(pady= 50)
 
 # Create a button
-my_button = tb.Button(text="Click Me!", bootstyle="success, outline", command = changer)
+my_button = tb.Button(text="Click Me!", width=40, bootstyle="success, outline", command = changer)
 my_button.pack(pady=20)
 
 
